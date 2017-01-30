@@ -1,0 +1,210 @@
+body {
+    background: rgb(159, 159, 159);
+    margin: 0px 0px 0px 0px;
+    background: url("BGHorse.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+footer {
+    height: 30px;
+    background: rgb(31, 31, 31);
+}
+
+.footerclass a {
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+    font-family: sans-serif;
+}
+
+.footerclass a:hover {
+    color: blue;
+}
+
+.footerclass p {
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logo {
+    padding: 5px 0px 3px 3px;
+    background:rgb(31, 31, 31);
+    
+}
+
+.navigation {
+    padding: 20px 10px 20px 5px;
+    background: rgb(177,87,0);
+    background: linear-gradient(to right, rgb(177,87,0), rgb(117,28,0));
+    text-align: right;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: rgb(31, 31, 31);
+}
+
+body p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    color: rgb(117,28,0);
+    font-family: serif;
+    font-size: 1em;
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+}
+
+body a:hover {
+    color: white;
+}
+
+.extlinks {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.extlinks2 h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.RiderPhoto {
+    margin-top: 30px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(50, 50, 50);
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.Dressage {
+    margin-top: 30px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(50, 50, 50);
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.ShowJump {
+    margin-top: 30px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(50, 50, 50);
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.CrossCountry {
+    margin-top: 30px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(50, 50, 50);
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+h1 {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: rgb(177,87,0);
+}
+
+h2 {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shire {
+    margin-top: 30px;
+    display:block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(50, 50, 50);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#arabian {
+    width: 300px;
+    display:block;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#percheron {
+    width: 300px;
+    display:block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+#dutchwb {
+    width: 300px;
+    display:block;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#dressagevid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#knockdown {
+    width: 200px;
+    display:block;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#showjumpvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#crosscountryvid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
