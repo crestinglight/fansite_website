@@ -56,6 +56,10 @@ footer {
     color: rgb(31, 31, 31);
 }
 
+.navigation .current {
+    color: rgb(19, 136, 219);
+}
+
 body p {
     margin-left: auto;
     margin-right: auto;
