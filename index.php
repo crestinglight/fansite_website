@@ -10,7 +10,7 @@
     <body>
     <!--Logo and Header-->
     <div class="logo">
-    <a href="index.html"><img src="Horse-logo.png" height="40" alt="Logo"></a>
+    <?php require 'LogoPreheader.php';?>
     </div>
     
     <!--OLD Navigation-->
@@ -43,7 +43,7 @@
     </p>
     
     <footer class="footerclass">
-        <p><a href="index.html">Home</a> | <a href="external-links.html">Links</a>
+        <p><?php require 'footer.php';?>
         </p>
     </footer>
     </body>

@@ -10,12 +10,12 @@
     <body>
     <!--Logo and Header-->
     <div class="logo">
-    <a href="index.html"><img src="Horse-logo.png" height="40" alt="Logo"></a>
+    <?php require 'LogoPreheader.php';?>
     </div>
     
     <!--Navigation-->
     <div class="navigation">
-    <a href="index.html">Home</a> | <a class="current" href="BreedsPage.html">All About Breeds</a> | <a href="Dressage.html">Dressage</a> | <a href="ShowJumping.html">Show Jumping</a> | <a href="CrossCountry.html">Cross Country</a>
+    <?php require 'navigation.php';?>
     </div>
     
         <img id="shire" src="Shire.jpg" alt="Shire Horse">
@@ -33,7 +33,7 @@
         <p>If you are looking to purchase or lease a horse for yourself, you should do a lot of research before ever going to see a horse you may want to buy. What will you use your horse for? What kind of temperment are you prepared to deal with? How much experience do you have, and will there be any children learning to ride and handle your horse? These are all questions that need to be considered before searching for your very own horse.</p>
         
         <footer class="footerclass">
-        <p><a href="index.html">Home</a> | <a href="external-links.html">Links</a>
+        <p><?php require 'footer.php';?>
         </p>
     </footer>
     

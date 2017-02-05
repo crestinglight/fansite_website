@@ -10,12 +10,12 @@
     <body>
     <!--Logo and Header-->
     <div class="logo">
-    <a href="index.html"><img src="Horse-logo.png" height="40" alt="Logo"></a>
+    <?php require 'LogoPreheader.php';?>
     </div>
     
     <!--Navigation-->
     <div class="navigation">
-    <a href="index.html">Home</a> | <a href="BreedsPage.html">All About Breeds</a> | <a href="Dressage.html">Dressage</a> | <a href="ShowJumping.html">Show Jumping</a> | <a href="CrossCountry.html">Cross Country</a>
+    <?php require 'navigation.php';?>
     </div>
     
         <h1>External Links</h1><br>
@@ -45,7 +45,7 @@
     
     
     <footer class="footerclass">
-        <p><a href="index.html">Home</a> | <a href="external-links.html">Links</a>
+        <p><?php require 'footer.php';?>
         </p>
     </footer>
     </body>
